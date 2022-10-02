@@ -1,0 +1,83 @@
+#root {
+    background: #ebdcb2;
+    padding-bottom: 30px;
+}
+#result {
+    display: inline-grid;
+}
+ul {
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+}
+ul li {
+    padding: 20px 0;
+
+}
+
+.storage li {
+    padding:5px;
+}
+
+.text {
+    text-align: center;
+    color: #662e1c;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.show_result {
+    font-size: 18px;
+    width: 100%;
+}
+.show_result .info {
+    font-weight: bold;
+}
+.get_data, .remove {
+    background-color: #c9a66b;
+    border: 1px solid #c9a66b;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+form {
+    max-width: 500px;
+}
+#data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#data input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+    border: 1px solid #662e1c;
+
+}
+#result {
+    width: 500px;
+}
+#result input[type="textarea"]{
+    width: 95.2%;
+    padding: 10px;
+}
+#result label, p{
+    font-size: 20px;
+ }
+#result label{
+   padding: 30px 0;
+   color: #662e1c;
+   font-size: 20px;
+
+}
+
+.help {
+    color:red;
+    display: none;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

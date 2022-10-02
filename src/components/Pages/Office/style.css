@@ -1,0 +1,17 @@
+
+.show_offices {
+    text-align: center;
+}
+
+.offices_list {
+    padding: 30px;
+}
+
+.show_offices p{
+    padding: 10px;
+    background: #662e1c;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+}
