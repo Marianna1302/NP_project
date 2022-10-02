@@ -7,17 +7,24 @@ nav ul {
 
 nav ul li {
     width: 100px;
-    margin:0 20px;
     list-style: none;
+    padding: 20px;
 }
 
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #c9a66b;
     font-weight: bold;
 }
 
-nav ul li a:hover{
-    color: black;
+nav ul li:hover {
+    background: #ebdcb2;
+    transition: 1s;
+    
+}
+
+nav ul li:hover a{
+    color: #662e1c;
+    transition: 1s;
 }

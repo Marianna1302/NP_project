@@ -6,6 +6,7 @@ import Remove from './script_remove';
 function TTN(props) {
     return (
         <div >
+            
             <p className='text'>Проверить статус посылки</p>
             <div id="container">
             <div className='ckeck'>

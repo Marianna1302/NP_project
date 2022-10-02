@@ -5,13 +5,21 @@
 
 .offices_list {
     padding: 30px;
+    line-height: 1.5rem;
+    color: #662e1c;
 }
 
 .show_offices p{
     padding: 10px;
     background: #662e1c;
-    color: white;
+    color: #ebdcb2;
     text-transform: uppercase;
     width: 200px;
     margin: auto;
+}
+
+.show_offices p:hover{
+    background-color: #c9a66b;
+    transition:1s;
+    cursor: pointer;
 }

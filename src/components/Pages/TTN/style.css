@@ -17,6 +17,7 @@ ul li {
 
 .storage li {
     padding:5px;
+    color: #662e1c;
 }
 
 .text {
@@ -24,10 +25,14 @@ ul li {
     color: #662e1c;
     font-size: 20px;
     padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .show_result {
     font-size: 18px;
     width: 100%;
+    line-height: 2rem;
+    color: #662e1c;
 }
 .show_result .info {
     font-weight: bold;
@@ -35,8 +40,8 @@ ul li {
 .get_data, .remove {
     background-color: #c9a66b;
     border: 1px solid #c9a66b;
-    padding: 10px;
-    color: #fff;
+    padding: 15px;
+    color: #ebdcb2;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -71,6 +76,11 @@ form {
    font-size: 20px;
 
 }
+.get_data:hover, .remove:hover {
+    background-color: #662e1c;
+    transition: 1s;
+    cursor: pointer;
+}
 
 .help {
     color:red;
@@ -81,3 +91,5 @@ form {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+
