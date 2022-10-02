@@ -1,0 +1,11 @@
+#header p {
+    font-size: 24px;
+}
+#header p span {
+    text-transform: uppercase;
+    color: red;
+}
+
+#header {
+    text-align: center;
+}

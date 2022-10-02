@@ -1,0 +1,23 @@
+nav ul {
+    background: #662e1c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    width: 100px;
+    margin:0 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
